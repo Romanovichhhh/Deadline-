@@ -1,8 +1,8 @@
 package com.example.mvvmplayer.di.component
 
 import com.example.mvvmplayer.app.App
+import com.example.mvvmplayer.di.module.AppModule
 import com.example.mvvmplayer.di.module.FragmentActivityInjectionsModule
-import com.example.mvvmplayer.di.module.RepositoriesInjectionsModule
 import dagger.BindsInstance
 import dagger.Component
 import javax.inject.Singleton
@@ -11,7 +11,7 @@ import javax.inject.Singleton
 @Component(
     modules = [
         FragmentActivityInjectionsModule::class,
-        RepositoriesInjectionsModule::class
+        AppModule::class
     ]
 )
 interface AppComponent {
