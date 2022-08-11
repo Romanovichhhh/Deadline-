@@ -10,7 +10,7 @@ import kotlin.reflect.KClass
 class Provider<VM : ViewModel> @Inject constructor(
     private val lazyViewModel: dagger.Lazy<VM>
 ) {
-
+    @Suppress("UNCHECKED_CAST")
     private val viewModelFactory = object : ViewModelProvider.Factory {
         override fun <T : ViewModel> create(modelClass: Class<T>): T = lazyViewModel.get() as T
     }

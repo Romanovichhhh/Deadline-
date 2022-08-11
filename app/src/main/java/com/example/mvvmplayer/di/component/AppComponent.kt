@@ -1,17 +1,23 @@
 package com.example.mvvmplayer.di.component
 
 import com.example.mvvmplayer.app.App
+import com.example.mvvmplayer.di.module.ActivityInjectionsModule
 import com.example.mvvmplayer.di.module.AppModule
-import com.example.mvvmplayer.di.module.FragmentActivityInjectionsModule
+import com.example.mvvmplayer.di.module.FragmentInjectionsModule
+import com.example.mvvmplayer.di.module.WorkerFactoryInjectionsModule
 import dagger.BindsInstance
 import dagger.Component
+import dagger.android.AndroidInjectionModule
 import javax.inject.Singleton
 
 @Singleton
 @Component(
     modules = [
-        FragmentActivityInjectionsModule::class,
-        AppModule::class
+        AndroidInjectionModule::class,
+        ActivityInjectionsModule::class,
+        AppModule::class,
+        FragmentInjectionsModule::class,
+        WorkerFactoryInjectionsModule::class
     ]
 )
 interface AppComponent {

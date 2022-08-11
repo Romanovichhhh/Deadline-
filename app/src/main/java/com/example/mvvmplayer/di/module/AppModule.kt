@@ -17,5 +17,5 @@ class AppModule {
 
     @Provides
     @Singleton
-    fun providePreferences(context: Context) : IPreferences = PreferencesImpl(context)
+    fun providePreferences(context : Context) : IPreferences = PreferencesImpl(context)
 }

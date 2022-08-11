@@ -1,10 +1,10 @@
 package com.example.mvvmplayer.app
 
 import android.os.Bundle
-import androidx.appcompat.app.AppCompatActivity
 import com.example.mvvmplayer.databinding.ActivityMainBinding
+import dagger.android.support.DaggerAppCompatActivity
 
-class MainActivity : AppCompatActivity() {
+class MainActivity : DaggerAppCompatActivity() {
 
     private lateinit var binding: ActivityMainBinding
 

@@ -3,9 +3,12 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/1220m/Desktop/MVVMPlayer/app/src/main/res/drawable/view_pin_symbol.xml" value="0.2015" />
+        <entry key="..\:/Users/1220m/Desktop/MVVMPlayer/app/src/main/res/drawable/view_pin_symbol_filled.xml" value="0.2015" />
         <entry key="..\:/Users/1220m/Desktop/MVVMPlayer/app/src/main/res/layout/activity_main.xml" value="0.31313131313131315" />
         <entry key="..\:/Users/1220m/Desktop/MVVMPlayer/app/src/main/res/layout/content_main.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/1220m/Desktop/MVVMPlayer/app/src/main/res/layout/fragment_pin_code.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/1220m/Desktop/MVVMPlayer/app/src/main/res/layout/view_pin_code.xml" value="0.3605128205128205" />
       </map>
     </option>
   </component>
